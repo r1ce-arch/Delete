@@ -1,11 +1,8 @@
-# Код всех практических заданий — Windows Forms (C#)
-
-> Для каждого задания: создать новый проект Windows Forms App, добавить элементы на форму, вставить код в Form1.cs.
-> Все имена элементов указаны в скобках рядом с каждым заданием.
+# Практические задания — Windows Forms и WPF (C#)
 
 ---
 
-## Задание 1 — Сравнение двух чисел
+## Задание 1 — Сравнение двух чисел (WinForms)
 
 **Элементы:** `TextBox` → `txtA`, `TextBox` → `txtB`, `Button` → `btnGo`, `Label` → `lblRes`
 
@@ -23,7 +20,7 @@ private void btnGo_Click(object sender, EventArgs e)
 
 ---
 
-## Задание 2 — Число больше 5 и меньше 10
+## Задание 2 — Число больше 5 и меньше 10 (WinForms)
 
 **Элементы:** `TextBox` → `txtN`, `Button` → `btnGo`, `Label` → `lblRes`
 
@@ -39,7 +36,7 @@ private void btnGo_Click(object sender, EventArgs e)
 
 ---
 
-## Задание 3 — Число равно 5 или 10
+## Задание 3 — Число равно 5 или 10 (WinForms)
 
 **Элементы:** `TextBox` → `txtN`, `Button` → `btnGo`, `Label` → `lblRes`
 
@@ -55,7 +52,7 @@ private void btnGo_Click(object sender, EventArgs e)
 
 ---
 
-## Задание 4 — Проценты по вкладу
+## Задание 4 — Проценты по вкладу (WinForms)
 
 **Элементы:** `TextBox` → `txtSum`, `Button` → `btnGo`, `Label` → `lblRes`
 
@@ -75,7 +72,7 @@ private void btnGo_Click(object sender, EventArgs e)
 
 ---
 
-## Задание 5 — Проценты по вкладу + бонус 15
+## Задание 5 — Проценты по вкладу + бонус 15 (WinForms)
 
 **Элементы:** `TextBox` → `txtSum`, `Button` → `btnGo`, `Label` → `lblRes`
 
@@ -95,7 +92,7 @@ private void btnGo_Click(object sender, EventArgs e)
 
 ---
 
-## Задание 6 — Выбор операции через switch
+## Задание 6 — Выбор операции switch (WinForms)
 
 **Элементы:** `TextBox` → `txtOp`, `Button` → `btnGo`, `Label` → `lblRes`
 
@@ -116,7 +113,7 @@ private void btnGo_Click(object sender, EventArgs e)
 
 ---
 
-## Задание 7 — Начисление процентов за месяцы (цикл for)
+## Задание 7 — Проценты за месяцы, цикл for (WinForms)
 
 **Элементы:** `TextBox` → `txtSum`, `TextBox` → `txtM`, `Button` → `btnGo`, `Label` → `lblRes`
 
@@ -135,7 +132,7 @@ private void btnGo_Click(object sender, EventArgs e)
 
 ---
 
-## Задание 8 — Таблица умножения
+## Задание 8 — Таблица умножения (WinForms)
 
 **Элементы:** `Button` → `btnGo`, `RichTextBox` → `rtb`
 
@@ -154,7 +151,7 @@ private void btnGo_Click(object sender, EventArgs e)
 
 ---
 
-## Задание 9 — Умножение двух чисел в диапазоне 0–10
+## Задание 9 — Умножение чисел в диапазоне 0–10 (WinForms)
 
 **Элементы:** `TextBox` → `txtA`, `TextBox` → `txtB`, `Button` → `btnGo`, `Label` → `lblRes`
 
@@ -173,7 +170,7 @@ private void btnGo_Click(object sender, EventArgs e)
 
 ---
 
-## Задание 10 — Сумма (чётные) или произведение (нечётные)
+## Задание 10 — Сумма или произведение по чётности (WinForms)
 
 **Элементы:** `TextBox` → `txtA`, `TextBox` → `txtB`, `Button` → `btnGo`, `Label` → `lblRes`
 
@@ -194,9 +191,9 @@ private void btnGo_Click(object sender, EventArgs e)
 
 ---
 
-## Задание 11 — Количество положительных чисел в массиве
+## Задание 11 — Количество положительных чисел (WinForms)
 
-**Элементы:** `TextBox` → `txtArr` (ввод через запятую), `Button` → `btnGo`, `Label` → `lblRes`
+**Элементы:** `TextBox` → `txtArr` (через запятую), `Button` → `btnGo`, `Label` → `lblRes`
 
 ```csharp
 private void btnGo_Click(object sender, EventArgs e)
@@ -214,7 +211,7 @@ private void btnGo_Click(object sender, EventArgs e)
 
 ---
 
-## Задание 12 — Матрица 10×10: суммы строк, произведения столбцов, макс. диагональ
+## Задание 12 — Матрица 10×10 (WinForms)
 
 **Элементы:** `Button` → `btnGo`, `RichTextBox` → `rtb`
 
@@ -255,7 +252,7 @@ private void btnGo_Click(object sender, EventArgs e)
 
 ---
 
-## Задание 13 — Элементы массива в диапазоне (0, 125)
+## Задание 13 — Элементы в диапазоне (0, 125) (WinForms)
 
 **Элементы:** `Button` → `btnGo`, `Label` → `lblRes`
 
@@ -271,13 +268,13 @@ private void btnGo_Click(object sender, EventArgs e)
         if (x > 0 && x < 125) count++;
     }
 
-    lblRes.Text = $"Элементов в диапазоне (0,125): {count}";
+    lblRes.Text = $"Элементов в (0,125): {count}";
 }
 ```
 
 ---
 
-## Задание 14 — Матрица: отрицательные, положительные, нулевые
+## Задание 14 — Матрица: отрицательные, положительные, нулевые (WinForms)
 
 **Элементы:** `Button` → `btnGo`, `RichTextBox` → `rtb`
 
@@ -308,7 +305,7 @@ private void btnGo_Click(object sender, EventArgs e)
 
 ---
 
-## Задание 15 — Максимум и минимум массива
+## Задание 15 — Максимум и минимум массива (WinForms)
 
 **Элементы:** `Button` → `btnGo`, `Label` → `lblRes`
 
@@ -333,7 +330,7 @@ private void btnGo_Click(object sender, EventArgs e)
 
 ---
 
-## Задание 16 — Массив Фибоначчи
+## Задание 16 — Массив Фибоначчи (WinForms)
 
 **Элементы:** `TextBox` → `txtN`, `Button` → `btnGo`, `Label` → `lblRes`
 
@@ -353,7 +350,7 @@ private void btnGo_Click(object sender, EventArgs e)
 
 ---
 
-## Задание 17 — Расстояние между двумя точками
+## Задание 17 — Расстояние между двумя точками (WinForms)
 
 **Элементы:** `TextBox` → `txtX1`, `txtY1`, `txtX2`, `txtY2`, `Button` → `btnGo`, `Label` → `lblRes`
 
@@ -372,7 +369,7 @@ private void btnGo_Click(object sender, EventArgs e)
 
 ---
 
-## Задание 18 — Факториал числа Фибоначчи (рекурсия)
+## Задание 18 — Факториал числа Фибоначчи (WinForms)
 
 **Элементы:** `TextBox` → `txtN`, `Button` → `btnGo`, `Label` → `lblRes`
 
@@ -390,7 +387,7 @@ private void btnGo_Click(object sender, EventArgs e)
 
 ---
 
-## Задание 19 — Чётное → факториал, нечётное → Фибоначчи
+## Задание 19 — Чётное → факториал, нечётное → Фибоначчи (WinForms)
 
 **Элементы:** `TextBox` → `txtN`, `Button` → `btnGo`, `Label` → `lblRes`
 
@@ -402,16 +399,14 @@ private void btnGo_Click(object sender, EventArgs e)
 {
     int n = int.Parse(txtN.Text);
 
-    if (n % 2 == 0)
-        lblRes.Text = $"{n}! = {Fact(n)}";
-    else
-        lblRes.Text = $"Fib({n}) = {Fib(n)}";
+    if (n % 2 == 0) lblRes.Text = $"{n}! = {Fact(n)}";
+    else lblRes.Text = $"Fib({n}) = {Fib(n)}";
 }
 ```
 
 ---
 
-## Задание 20 — Время года по номеру месяца (switch)
+## Задание 20 — Время года (WinForms)
 
 **Элементы:** `TextBox` → `txtM`, `Button` → `btnGo`, `Label` → `lblRes`
 
@@ -422,9 +417,9 @@ private void btnGo_Click(object sender, EventArgs e)
 
     lblRes.Text = m switch
     {
-        12 or 1 or 2 => "Зима",
-        3 or 4 or 5  => "Весна",
-        6 or 7 or 8  => "Лето",
+        12 or 1 or 2  => "Зима",
+        3 or 4 or 5   => "Весна",
+        6 or 7 or 8   => "Лето",
         9 or 10 or 11 => "Осень",
         _ => "Неверный месяц"
     };
@@ -433,7 +428,7 @@ private void btnGo_Click(object sender, EventArgs e)
 
 ---
 
-## Задание 21 — Расписание на неделю (switch)
+## Задание 21 — Расписание на неделю (WinForms)
 
 **Элементы:** `TextBox` → `txtD`, `Button` → `btnGo`, `Label` → `lblRes`
 
@@ -458,9 +453,9 @@ private void btnGo_Click(object sender, EventArgs e)
 
 ---
 
-## Задание 22 — Нечисловые → 0, min/max/сумма через методы
+## Задание 22 — Нечисловые → 0, min/max/сумма (WinForms)
 
-**Элементы:** `TextBox` → `txtArr` (через запятую), `Button` → `btnGo`, `RichTextBox` → `rtb`
+**Элементы:** `TextBox` → `txtArr`, `Button` → `btnGo`, `RichTextBox` → `rtb`
 
 ```csharp
 double[] ParseArr(string input)
@@ -486,7 +481,7 @@ private void btnGo_Click(object sender, EventArgs e)
 
 ---
 
-## Задание 23 — Вычисление n! / (k! * (n! - k!))
+## Задание 23 — n! / (k! * (n! - k!)) (WinForms)
 
 **Элементы:** `TextBox` → `txtN`, `txtK`, `Button` → `btnGo`, `Label` → `lblRes`
 
@@ -503,7 +498,7 @@ private void btnGo_Click(object sender, EventArgs e)
 
 ---
 
-## Задание 24 — Счастливый билет
+## Задание 24 — Счастливый билет (WinForms)
 
 **Элементы:** `TextBox` → `txtT1`, `txtT2`, `Button` → `btnGo`, `Label` → `lblRes`
 
@@ -523,11 +518,35 @@ private void btnGo_Click(object sender, EventArgs e)
 
 ---
 
-## Задание 25 — Классы Student и Aspirant
+## Задание 25 — Student и Aspirant (WPF)
 
-**Элементы:** `Button` → `btnGo`
+### MainWindow.xaml
+```xml
+<Window x:Class="App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Student" Height="200" Width="350">
+    <StackPanel Margin="10">
+        <Button Content="Показать" Click="btnGo_Click"/>
+        <TextBlock x:Name="lblRes" Margin="0,10,0,0" TextWrapping="Wrap"/>
+    </StackPanel>
+</Window>
+```
 
+### MainWindow.xaml.cs
 ```csharp
+public partial class MainWindow : Window
+{
+    public MainWindow() { InitializeComponent(); }
+
+    private void btnGo_Click(object sender, RoutedEventArgs e)
+    {
+        var s = new Student("Иванов", 3, "АС-001");
+        var a = new Aspirant("Петров", 5, "АС-099", "Нейросети");
+        lblRes.Text = s.Print() + "\n\n" + a.Print();
+    }
+}
+
 class Student
 {
     private string surname, recordBook;
@@ -550,24 +569,40 @@ class Aspirant : Student
 
     public string Topic { get => topic; set => topic = value; }
 
-    public override string Print() => base.Print() + $"\nТема диссертации: {Topic}";
-}
-
-private void btnGo_Click(object sender, EventArgs e)
-{
-    var s = new Student("Иванов", 3, "АС-001");
-    var a = new Aspirant("Петров", 5, "АС-099", "Нейросети");
-    MessageBox.Show(s.Print() + "\n\n" + a.Print());
+    public override string Print() => base.Print() + $"\nТема: {Topic}";
 }
 ```
 
 ---
 
-## Задание 26 — Классы Book, BookGenre, BookGenrePubl
+## Задание 26 — Book, BookGenre, BookGenrePubl (WPF)
 
-**Элементы:** `Button` → `btnGo`
+### MainWindow.xaml
+```xml
+<Window x:Class="App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Book" Height="200" Width="350">
+    <StackPanel Margin="10">
+        <Button Content="Показать" Click="btnGo_Click"/>
+        <TextBlock x:Name="lblRes" Margin="0,10,0,0" TextWrapping="Wrap"/>
+    </StackPanel>
+</Window>
+```
 
+### MainWindow.xaml.cs
 ```csharp
+public partial class MainWindow : Window
+{
+    public MainWindow() { InitializeComponent(); }
+
+    private void btnGo_Click(object sender, RoutedEventArgs e)
+    {
+        var b = new BookGenrePubl("Война и мир", "Толстой", 590, "Роман", "Эксмо");
+        lblRes.Text = b.Print();
+    }
+}
+
 class Book
 {
     private string title, author;
@@ -604,21 +639,47 @@ sealed class BookGenrePubl : BookGenre
 
     public override string Print() => base.Print() + $", Издатель: {Publisher}";
 }
-
-private void btnGo_Click(object sender, EventArgs e)
-{
-    var b = new BookGenrePubl("Война и мир", "Толстой", 590, "Роман", "Эксмо");
-    MessageBox.Show(b.Print());
-}
 ```
 
 ---
 
-## Задание 27 — Абстрактный класс Figure и Triangle
+## Задание 27 — Абстрактный класс Figure и Triangle (WPF)
 
-**Элементы:** `TextBox` → `txtA`, `txtB`, `txtC`, `Button` → `btnGo`, `Label` → `lblRes`
+### MainWindow.xaml
+```xml
+<Window x:Class="App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Triangle" Height="220" Width="300">
+    <StackPanel Margin="10">
+        <TextBlock Text="Сторона a:"/>
+        <TextBox x:Name="txtA"/>
+        <TextBlock Text="Сторона b:"/>
+        <TextBox x:Name="txtB"/>
+        <TextBlock Text="Сторона c:"/>
+        <TextBox x:Name="txtC"/>
+        <Button Content="Вычислить" Click="btnGo_Click" Margin="0,5,0,0"/>
+        <TextBlock x:Name="lblRes" Margin="0,10,0,0" TextWrapping="Wrap"/>
+    </StackPanel>
+</Window>
+```
 
+### MainWindow.xaml.cs
 ```csharp
+public partial class MainWindow : Window
+{
+    public MainWindow() { InitializeComponent(); }
+
+    private void btnGo_Click(object sender, RoutedEventArgs e)
+    {
+        double a = double.Parse(txtA.Text);
+        double b = double.Parse(txtB.Text);
+        double c = double.Parse(txtC.Text);
+        var t = new Triangle("Треугольник", a, b, c);
+        lblRes.Text = t.Print();
+    }
+}
+
 abstract class Figure
 {
     private string name;
@@ -637,7 +698,7 @@ class Triangle : Figure
     { this.a=a; this.b=b; this.c=c; }
 
     public void SetABC(double a, double b, double c) { this.a=a; this.b=b; this.c=c; }
-    public (double,double,double) GetABC() => (a,b,c);
+    public (double, double, double) GetABC() => (a, b, c);
 
     public override double Area2
     {
@@ -646,24 +707,16 @@ class Triangle : Figure
 
     public override double Area() => Area2;
 
-    public override string Print() => base.Print() + $", стороны: {a},{b},{c}, площадь: {Area():F4}";
-}
-
-private void btnGo_Click(object sender, EventArgs e)
-{
-    double a = double.Parse(txtA.Text);
-    double b = double.Parse(txtB.Text);
-    double c = double.Parse(txtC.Text);
-    var t = new Triangle("Треугольник", a, b, c);
-    lblRes.Text = t.Print();
+    public override string Print() =>
+        base.Print() + $", стороны: {a},{b},{c}, площадь: {Area():F4}";
 }
 ```
 
 ---
 
-## Задание 28 — Круглая форма
+## Задание 28 — Круглая форма (WinForms)
 
-**Код в конструкторе Form1:**
+**Вставить в конструктор Form1:**
 
 ```csharp
 public Form1()
@@ -680,7 +733,7 @@ public Form1()
     gp.AddEllipse(0, 0, Width, Height);
     this.Region = new Region(gp);
 
-    var btn = new Button { Text = "X", Size = new Size(40,40),
+    var btn = new Button { Text = "X", Size = new Size(40, 40),
                            Location = new Point(130, 130) };
     btn.Click += (s, e) => Close();
     Controls.Add(btn);
@@ -689,7 +742,7 @@ public Form1()
 
 ---
 
-## Задание 29 — Таблица значений y = a * ln(x)
+## Задание 29 — Таблица y = a * ln(x) (WinForms)
 
 **Элементы:** `TextBox` → `txtA`, `txtX0`, `txtXk`, `txtDx`, `Button` → `btnGo`, `DataGridView` → `dgv`
 
@@ -709,6 +762,7 @@ private void btnGo_Click(object sender, EventArgs e)
     for (double x = x0; x <= xk + 1e-9; x += dx)
         dgv.Rows.Add(x.ToString("F4"), (a * Math.Log(x)).ToString("F4"));
 }
+```
 ```
 # Ответы на теоретические вопросы к экзамену по РПМ
 
